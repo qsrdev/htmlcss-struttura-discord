@@ -90,14 +90,6 @@
   background-color: pink;
 }
 
-/* Section Grey */
-.sectiongray {
-  display: flex;
-  background-color: gray;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Section Green */
 .sectiongreen {
   display: flex;
@@ -111,4 +103,35 @@
   border: 3px dashed rgb(0, 0, 0);
   height: 900px;
   width: 100%;
+}
+
+/* Section Black */
+.sectionblack {
+  display: flex;
+  background-color: rgba(35, 39, 42, 255);
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid gray;
+}
+
+.colred {
+  background-color: rgba(240, 128, 128, 255);
+  width: 30%;
+  height: 500px;
+  border: 3px dashed black;
+}
+
+.colteal {
+  display: flex;
+  background-color: rgba(32, 178, 170, 255);
+  width: 70%;
+  height: 500px;
+  border: 3px dashed black;
+}
+
+.tealdivision {
+  background-color: rgba(32, 178, 170, 255);
+  width: 25%;
+  height: 500px;
+  border: 3px dashed white;
 }
