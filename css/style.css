@@ -97,3 +97,18 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Section Green */
+.sectiongreen {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+}
+
+.monogreenbox {
+  background-color: rgba(34, 139, 34, 255);
+  border: 3px dashed rgb(0, 0, 0);
+  height: 900px;
+  width: 100%;
+}
