@@ -7,7 +7,7 @@
 
 /* HEADER */
 .header {
-  height: 80px;
+  min-height: 80px;
   padding: 10px;
   /* debug */
   background-color: rgba(173, 216, 230, 255);
@@ -17,9 +17,10 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
-  border: 3px dashed black;
+  /* border: 3px dashed black; */
   background-color: rgba(218, 165, 32, 255);
 }
+
 /* COMMON */
 /* Layout */
 
@@ -29,22 +30,31 @@
   margin: auto;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* debug */
-  border: 1px solid black;
-}
-
 .col-25 {
   width: 25%;
   /* debug */
-  border: 1px dotted black;
+  border: 3px dashed black;
 }
 
 .col-50 {
+  display: flex;
   width: 50%;
   /* debug */
-  border: 1px dotted black;
+  border: 3px dashed black;
+}
+
+/* Section Blu */
+.sectionblu {
+  background-color: rgb(0, 0, 163);
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pinkbox {
+  background-color: rgb(255, 135, 253);
+  border: 3px dashed rgb(0, 0, 0);
+  height: 300px;
+  width: 700px;
 }
