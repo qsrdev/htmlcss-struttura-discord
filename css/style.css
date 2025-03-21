@@ -8,26 +8,44 @@
 /* HEADER */
 .header {
   height: 80px;
+  padding: 10px;
   /* debug */
   background-color: rgba(173, 216, 230, 255);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border: 3px dashed black;
+  background-color: rgba(218, 165, 32, 255);
+  padding: 10px;
 }
 /* COMMON */
 /* Layout */
 
 .container {
-  display: flex;
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 70%;
+  max-width: 1100px;
+  margin: auto;
 }
 
-.flexactivate {
+.flex {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  /* debug */
+  border: 1px solid black;
 }
 
 .col-25 {
+  width: 25%;
+  /* debug */
+  border: 1px dotted black;
 }
 
 .col-50 {
+  width: 50%;
+  /* debug */
+  border: 1px dotted black;
 }
