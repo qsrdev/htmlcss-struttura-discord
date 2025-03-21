@@ -89,3 +89,11 @@
   border: 3px dashed black;
   background-color: pink;
 }
+
+/* Section Grey */
+.sectiongray {
+  display: flex;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+}
