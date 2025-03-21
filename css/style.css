@@ -1,0 +1,33 @@
+/* RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+  height: 80px;
+  /* debug */
+  background-color: rgba(173, 216, 230, 255);
+}
+/* COMMON */
+/* Layout */
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flexactivate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-25 {
+}
+
+.col-50 {
+}
